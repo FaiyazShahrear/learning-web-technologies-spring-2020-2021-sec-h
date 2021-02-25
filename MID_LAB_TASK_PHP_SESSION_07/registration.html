@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XCompany - Registration</title>
+</head>
+
+<body>
+
+
+
+    <table style="border:2px solid black; border-collapse: collapse;" align="center" width="70%">
+
+        <tr>
+
+           
+            <td style="border:2px solid black; border-collapse: collapse;" align="right">
+
+                 <img align="left" src="logo.png" alt="Logo"width="250" height="60">
+                    <br>
+                 <a href="publicHome.html">Home  </a>|
+                <a  href="login.html">Login</a>|
+                <a  href="registration.html">Registration</a>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;">
+
+                <form action="regCheck.php" method="post">
+                <br><br><br><br><br>
+                    <fieldset style="width:45%; margin:  0px auto;">
+
+                        <legend><b>REGISTRATION</b></legend>
+
+                        <br><br>
+
+                        <b>Name</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="name">
+                        <hr>
+                        <b>Email</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="email" name="email">
+                        <button title="hint:Sample@example.com"><b>i</b></button>
+                        <hr>
+                        <b>User Name</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" name="username">
+                        <hr>
+                        <b>Password</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="password" name="password">
+                        <hr>
+                        <b>Confirm Password</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="password" name="cpassword">
+                        <hr>
+
+                        <fieldset>
+
+                            <legend><b>Gender</b></legend>
+
+                            <input type="radio" name="gender" value="Male"> <b>Male</b>
+                            <input type="radio" name="gender" value="Female"> <b>Female</b>
+                            <input type="radio" name="gender" value="Other"> <b>Other</b>
+
+                        </fieldset >
+                       
+                        <hr>
+
+                        <fieldset >
+
+                            <legend><b>Date of Birth</b></legend>
+
+                            <input type="tel" name="dd" size="1" pattern="[0-9]{2}"><b> /</b>
+                            <input type="tel" name="mm" size="1" pattern="[0-9]{2}"><b> /</b>
+                            <input type="tel" name="yyyy" size="2" pattern="[0-9]{4}"> (dd/mm/yyyy)
+
+                        </fieldset>
+                        <hr>
+
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="Reset" name="Reset" value="Reset">
+
+                    </fieldset>
+                     <br><br><br><br><br>
+
+                </form>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="2" align="center">
+                <p>Copyright &#169; 2017</p>
+            </td>
+
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
