@@ -82,7 +82,7 @@
   }
   else
   {
-                echo "Login First";
+                echo "Please Login";
                 header('refresh:3; url=http://localhost/Test/login.html');
   }
 
