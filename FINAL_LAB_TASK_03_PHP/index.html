@@ -1,0 +1,31 @@
+<center>
+	<form action="controller/regCheck.php" method="post">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<fieldset>
+						<legend>
+							<h3>REGISTRATION</h3>
+						</legend>
+						Id<br /><input type="text" name="id"><br />
+						Password<br /><input type="password" name="password"><br />
+						Confirm Password<br /><input type="password" name="cpassword"><br />
+						Name<br /><input type="text" name="name"><br />
+						Email<br /><input type="text" name="email"><br />
+
+						<label> User Type[User/Admin] </label><br>
+						<select name="type">
+							<option value="user"> User
+							</option>
+							<option value="admin"> Admin
+							</option>
+						</select>
+						<hr />
+						<input type="submit" name="submit" value="Register">
+						<a href="view/login.html">Login</a>
+					</fieldset>
+				</td>
+			</tr>
+		</table>
+	</form>
+</center>
